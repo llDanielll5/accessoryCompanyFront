@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Accessory Company</title>
+
+        <!-- font awesome cdn link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+        <!-- css file link  -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- swiper link CDN -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    </head>
+    <body>
+        
+        <!-- Header section start  -->
+        <header class="header">
+            <a href="#" class="logo"><i class="far fa-gem"> accessory company </i></a>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#products">Produtos</a>
+                <a href="#categories">Categorias</a>
+                <a href="#review">Avaliações</a>
+                <a href="#blogs">Blogs</a>
+                <a href="#contact">Contato</a>
+            </nav>
+
+            <div class="icons">
+                <div class="fas fa-bars" id="menu-btn"></div>
+                <div class="fas fa-search" id="search-btn"></div>
+                <div class="fas fa-shopping-cart" id="cart-btn"></div>
+                <div class="fas fa-user" id="login-btn"></div>
+            </div><!--icons-->
+
+            <form action="" class="search-form">
+                <input type="search" id="search-box" placeholder="Procure aqui...">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="shopping-cart">
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="images/cart1.jpeg">
+                    <div class="content">
+                        <h3>Produto no Carrinho</h3>
+                        <span class="price">R$ 10,00/-</span>
+                        <span class="quantity">Qtd: 1</span>
+                    </div><!--content-->
+                </div><!--box-->
+
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="images/cart2.jpeg">
+                    <div class="content">
+                        <h3>Produto no Carrinho 2</h3>
+                        <span class="price">R$ 20,00/-</span>
+                        <span class="quantity">Qtd: 3</span>
+                    </div><!--content-->
+                </div><!--box-->
+
+                <div class="box">
+                    <i class="fas fa-trash"></i>
+                    <img src="images/cart3.jpeg">
+                    <div class="content">
+                        <h3>Produto no Carrinho 3</h3>
+                        <span class="price">R$ 5,00/-</span>
+                        <span class="quantity">Qtd: 7</span>
+                    </div><!--content-->
+                </div><!--box-->
+                <div class="total"> total: R$ XX,XX/-</div>
+                <a href="#" class="btn"> Comprar</a>
+            </div><!--shopping-cart-->
+
+            <form action="" class="login-form">
+                <h3>Entrar</h3>
+                <input type="email" placeholder="Seu e-mail" class="box">
+                <input type="password" placeholder="Sua senha" class="box">
+                <p>Esqueceu a sua senha? <a href="#">Clique aqui!</a></p>
+                <p>Não possui uma conta? <a href="#">Criar agora!</a></p>
+                <input type="submit" value="Entrar" class="btn">
+            </form>
+        </header>
+        <!-- Header section finish -->
+
+        <!-- HOME SECTION STARTS -->
+        <section class="home" id="home">
+            <div class="content">
+                <h3>Produtos <span>imperdíveis</span> para você.</h3>
+                <p>Novidades toda semana!</p>
+                <a href="#" class="btn">Comprar agora</a>
+            </div>
+        </section>
+        <!-- HOME SECTION FINISH -->
+
+        <!-- FEATURES SECTION START  -->
+        <!-- FEATURES SECTION FINISH  -->
+
+        <!-- PRODUCTS SECTION START -->
+        <section class="products" id="products">
+            <h1 class="heading">nossos <span>produtos</span></h1>
+            <div class="swiper product-slider">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide box">
+                        <img src="images/product1.jpeg">
+                        <h3>Pulseira ouro</h3>
+                        <div class="price">R$ 10,00/- - R$25,00/- </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">adicionar ao carrinho</a>
+                    </div><!--box-->
+
+                    <div class="swiper-slide box">
+                        <img src="images/product2.jpeg">
+                        <h3>Pulseira ouro</h3>
+                        <div class="price">R$ 10,00/- - R$25,00/- </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">adicionar ao carrinho</a>
+                    </div><!--box-->
+
+                    <div class="swiper-slide box">
+                        <img src="images/product3.jpeg">
+                        <h3>Pulseira ouro</h3>
+                        <div class="price">R$ 10,00/- - R$25,00/- </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">adicionar ao carrinho</a>
+                    </div><!--box-->
+
+                    <div class="swiper-slide box">
+                        <img src="images/product4.jpeg">
+                        <h3>Anel ouro</h3>
+                        <div class="price">R$ 10,00/- - R$25,00/- </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">adicionar ao carrinho</a>
+                    </div><!--box-->
+                </div><!--wrapper-->
+            </div><!--product-slider-->
+
+            <div class="swiper product-slider">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide box">
+                        <img src="images/product5.jpeg">
+                        <h3>anel ouro</h3>
+                        <div class="price">R$ 10,00/- - R$25,00/- </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">adicionar ao carrinho</a>
+                    </div><!--box-->
+
+                    <div class="swiper-slide box">
+                        <img src="images/product6.jpeg">
+                        <h3>anel ouro</h3>
+                        <div class="price">R$ 10,00/- - R$25,00/- </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">adicionar ao carrinho</a>
+                    </div><!--box-->
+
+                    <div class="swiper-slide box">
+                        <img src="images/product7.jpeg">
+                        <h3>anel ouro</h3>
+                        <div class="price">R$ 10,00/- - R$25,00/- </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">adicionar ao carrinho</a>
+                    </div><!--box-->
+
+                    <div class="swiper-slide box">
+                        <img src="images/product8.jpeg">
+                        <h3>brinco ouro</h3>
+                        <div class="price">R$ 10,00/- - R$25,00/- </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">adicionar ao carrinho</a>
+                    </div><!--box-->
+                </div><!--wrapper-->
+            </div><!--product-slider-->
+
+        </section>
+        <!-- PRODUCTS SECTION FINISH -->
+
+        <!-- CATEGORIES SECTION START -->
+        <section class="categories" id="categories">
+            <h1 class="heading">Todas <span>categorias</span></h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/cat1.jpeg">
+                    <h3>Pulseiras</h3>
+                    <p>até 50% de desconto!</p>
+                    <a href="#" class="btn">Comprar agora</a>
+                </div><!--box-->
+
+                <div class="box">
+                    <img src="images/cat2.png">
+                    <h3>Colares</h3>
+                    <p>até 50% de desconto!</p>
+                    <a href="#" class="btn">Comprar agora</a>
+                </div><!--box-->
+
+                <div class="box">
+                    <img src="images/cat3.jpeg">
+                    <h3>anéis</h3>
+                    <p>até 50% de desconto!</p>
+                    <a href="#" class="btn">Comprar agora</a>
+                </div><!--box-->
+
+                <div class="box">
+                    <img src="images/cat4.jpeg">
+                    <h3>brincos</h3>
+                    <p>até 50% de desconto!</p>
+                    <a href="#" class="btn">Comprar agora</a>
+                </div><!--box-->
+            </div><!--box-container-->
+        </section>
+        <!-- CATEGORIES SECTION FINISH -->
+
+        <!-- REVIEW SECTION START -->
+        <section class="review" id="review">
+            <h1 class="heading">Nossas <span>avaliações</span></h1>
+
+            <div class="swiper review-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <img src="images/pic-1.png" alt="">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                           Voluptatum quas veniam vitae quisquam alias velit numquam laudantium, 
+                           molestias optio doloremque repellendus deserunt perspiciatis!
+                           Laborum nihil blanditiis quidem nam vero atque.</p>
+                           <h3>Fulano de tal</h3>
+                           <div class="stars">
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star-half-alt"></i>
+                           </div><!--stars-->
+                    </div><!--box-->
+
+                    <div class="swiper-slide box">
+                        <img src="images/pic-2.png" alt="">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                           Voluptatum quas veniam vitae quisquam alias velit numquam laudantium, 
+                           molestias optio doloremque repellendus deserunt perspiciatis!
+                           Laborum nihil blanditiis quidem nam vero atque.</p>
+                           <h3>Fulano de tal</h3>
+                           <div class="stars">
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star-half-alt"></i>
+                           </div><!--stars-->
+                    </div><!--box-->
+
+                    <div class="swiper-slide box">
+                        <img src="images/pic-3.png" alt="">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                           Voluptatum quas veniam vitae quisquam alias velit numquam laudantium, 
+                           molestias optio doloremque repellendus deserunt perspiciatis!
+                           Laborum nihil blanditiis quidem nam vero atque.</p>
+                           <h3>Fulano de tal</h3>
+                           <div class="stars">
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star-half-alt"></i>
+                           </div><!--stars-->
+                    </div><!--box-->
+
+                    <div class="swiper-slide box">
+                        <img src="images/pic-4.png" alt="">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                           Voluptatum quas veniam vitae quisquam alias velit numquam laudantium, 
+                           molestias optio doloremque repellendus deserunt perspiciatis!
+                           Laborum nihil blanditiis quidem nam vero atque.</p>
+                           <h3>Fulano de tal</h3>
+                           <div class="stars">
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star-half-alt"></i>
+                           </div><!--stars-->
+                    </div><!--box-->
+                </div><!--wrapper-->
+            </div><!--review-slider-->
+        </section>
+        <!-- REVIEW SECTION ENDS -->
+
+        <!-- BLOGS SECTION START -->
+        <section class="blogs" id="blogs">
+            <h1 class="heading">nossos <span>blogs</span></h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="images/blog1.jpeg" alt="">
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#"><i class="fas fa-user"></i>por usuário</a>
+                            <a href="#"><i class="fas fa-calendar"></i>1 Abr, 2021</a>
+                        </div><!--icons-->
+                    </div><!--content-->
+                    <h3>Como cuidar de suas semi-jóias.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo optio dolore ratione amet accusamus inventore aliquid</p>
+                    <a href="#" class="btn">Ler mais</a>
+                </div><!--box-->
+
+                <div class="box">
+                    <img src="images/blog2.jpeg" alt="">
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#"><i class="fas fa-user"></i>por usuário</a>
+                            <a href="#"><i class="fas fa-calendar"></i>1 Abr, 2021</a>
+                        </div><!--icons-->
+                    </div><!--content-->
+                    <h3>Qual a joia ideal para um jantar?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo optio dolore ratione amet accusamus inventore aliquid</p>
+                    <a href="#" class="btn">Ler mais</a>
+                </div><!--box-->
+
+                <div class="box">
+                    <img src="images/blog3.jpeg" alt="">
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#"><i class="fas fa-user"></i>por usuário</a>
+                            <a href="#"><i class="fas fa-calendar"></i>1 Abr, 2021</a>
+                        </div><!--icons-->
+                    </div><!--content-->
+                    <h3>Quebrei minha jóia, e agora?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo optio dolore ratione amet accusamus inventore aliquid</p>
+                    <a href="#" class="btn">Ler mais</a>
+                </div><!--box-->
+            </div><!--box-container-->
+        </section>
+        <!-- BLOGS SECTION ENDS -->
+
+        <!-- FOOTER START -->
+        <footer id="contact">
+            <div class="box-container">
+                <div class="box">
+                    <h3><i class="far fa-gem"> Accessory Company</i></h3>
+                    <p>A Accessory Company é uma empresa criada por Elayne Mota, para trazer o melhor do mundo feminino para a mulher, sem sair de casa.</p>
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div><!--share-->
+                </div><!--box-->
+
+                <div class="box">
+                    <h3>Informações de contato!</h3>
+                    <a href="#" class="links"><i class="fas fa-phone"></i> (61) 9.9916-5485</a>
+                    <a href="#" class="links"><i class="fas fa-envelope"></i> accessorycompany@gmail.com</a>
+                    <a href="#" class="links"><i class="fas fa-map-marker-alt"></i> Brasilia-DF, Conjunto Nacional</a>
+                </div><!--box-->
+
+                <div class="box">
+                    <h3>links rápidos</h3>
+                    <a href="#home" class="links"><i class="fas fa-arrow-right"></i> Home</a>
+                    <a href="#products" class="links"><i class="fas fa-arrow-right"></i> Produtos</a>
+                    <a href="#categories" class="links"><i class="fas fa-arrow-right"></i> Categorias</a>
+                    <a href="#review" class="links"><i class="fas fa-arrow-right"></i> Avaliações</a>
+                    <a href="#blogs" class="links"><i class="fas fa-arrow-right"></i> Blogs</a>
+                    <a href="#contact" class="links"><i class="fas fa-arrow-right"></i> Contatos</a>
+                </div><!--box-->
+
+                <div class="box">
+                    <h3>Novidades!</h3>
+                    <p>Inscreva-se para novidades toda semana!</p>
+                    <input type="email" placeholder="Seu e-mail" class="email">
+                    <input type="submit" value="subscribe" class="btn">
+                    <img src="images/payment.png" class="payment-img">
+                </div><!--box-->
+            </div><!--box-container-->
+            <div class="credit">Criado por <span>Daniel Mota - DanDev</span> | Todos os direitos reservados. 2021.</div>
+        </footer>
+
+
+        <!-- FOOTER ENDS -->
+
+        <!-- js file link  -->
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
