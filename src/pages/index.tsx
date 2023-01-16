@@ -1,12 +1,14 @@
+//@ts-nocheck
+/* eslint-disable */
+
 import React from "react";
 import Script from "next/script";
-import Image from "next/legacy/image";
 
 export default function Home() {
   return (
     <>
       <head>
-        <title>Accessory Company</title>
+        <title>Bijuteria Site</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
@@ -49,12 +51,7 @@ export default function Home() {
         <div className="shopping-cart">
           <div className="box">
             <i className="fas fa-trash"></i>
-            {/* <Image
-              src="/images/cart1.jpeg"
-              alt=""
-              layout="fill"
-              style={{ height: "10rem" }}
-            /> */}
+            <img src="/images/cart1.jpeg" />
             <div className="content">
               <h3>Produto no Carrinho</h3>
               <span className="price">R$ 10,00/-</span>
@@ -64,7 +61,7 @@ export default function Home() {
 
           <div className="box">
             <i className="fas fa-trash"></i>
-            {/* <img src="images/cart2.jpeg"> */}
+            <img src="images/cart2.jpeg" />
             <div className="content">
               <h3>Produto no Carrinho 2</h3>
               <span className="price">R$ 20,00/-</span>
@@ -74,7 +71,7 @@ export default function Home() {
 
           <div className="box">
             <i className="fas fa-trash"></i>
-            {/* <img src="images/cart3.jpeg"> */}
+            <img src="images/cart3.jpeg" />
             <div className="content">
               <h3>Produto no Carrinho 3</h3>
               <span className="price">R$ 5,00/-</span>
@@ -121,7 +118,7 @@ export default function Home() {
         <div className="swiper product-slider">
           <div className="swiper-wrapper">
             <div className="swiper-slide box">
-              {/* <img src="images/product1.jpeg"> */}
+              <img src="images/product1.jpeg" />
               <h3>Pulseira ouro</h3>
               <div className="price">R$ 10,00/- - R$25,00/- </div>
               <div className="stars">
@@ -137,7 +134,7 @@ export default function Home() {
             </div>
 
             <div className="swiper-slide box">
-              {/* <img src="images/product2.jpeg"> */}
+              <img src="images/product2.jpeg" />
               <h3>Pulseira ouro</h3>
               <div className="price">R$ 10,00/- - R$25,00/- </div>
               <div className="stars">
@@ -153,7 +150,7 @@ export default function Home() {
             </div>
 
             <div className="swiper-slide box">
-              {/* <img src="images/product3.jpeg"> */}
+              <img src="images/product3.jpeg" />
               <h3>Pulseira ouro</h3>
               <div className="price">R$ 10,00/- - R$25,00/- </div>
               <div className="stars">
@@ -169,7 +166,7 @@ export default function Home() {
             </div>
 
             <div className="swiper-slide box">
-              {/* <img src="images/product4.jpeg"> */}
+              <img src="images/product4.jpeg" />
               <h3>Anel ouro</h3>
               <div className="price">R$ 10,00/- - R$25,00/- </div>
               <div className="stars">
@@ -189,7 +186,7 @@ export default function Home() {
         <div className="swiper product-slider">
           <div className="swiper-wrapper">
             <div className="swiper-slide box">
-              {/* <img src="images/product5.jpeg"> */}
+              <img src="images/product5.jpeg" />
               <h3>anel ouro</h3>
               <div className="price">R$ 10,00/- - R$25,00/- </div>
               <div className="stars">
@@ -205,7 +202,7 @@ export default function Home() {
             </div>
 
             <div className="swiper-slide box">
-              {/* <img src="images/product6.jpeg"> */}
+              <img src="images/product6.jpeg" />
               <h3>anel ouro</h3>
               <div className="price">R$ 10,00/- - R$25,00/- </div>
               <div className="stars">
@@ -221,7 +218,7 @@ export default function Home() {
             </div>
 
             <div className="swiper-slide box">
-              {/* <img src="images/product7.jpeg"> */}
+              <img src="images/product7.jpeg" />
               <h3>anel ouro</h3>
               <div className="price">R$ 10,00/- - R$25,00/- </div>
               <div className="stars">
@@ -237,7 +234,7 @@ export default function Home() {
             </div>
 
             <div className="swiper-slide box">
-              {/* <img src="images/product8.jpeg"> */}
+              <img src="images/product8.jpeg" />
               <h3>brinco ouro</h3>
               <div className="price">R$ 10,00/- - R$25,00/- </div>
               <div className="stars">
@@ -262,7 +259,7 @@ export default function Home() {
 
         <div className="box-container">
           <div className="box">
-            {/* <img src="images/cat1.jpeg"> */}
+            <img src="images/cat1.jpeg" />
             <h3>Pulseiras</h3>
             <p>até 50% de desconto!</p>
             <a href="#" className="btn">
@@ -271,7 +268,7 @@ export default function Home() {
           </div>
 
           <div className="box">
-            {/* <img src="images/cat2.png"> */}
+            <img src="images/cat2.png" />
             <h3>Colares</h3>
             <p>até 50% de desconto!</p>
             <a href="#" className="btn">
@@ -280,7 +277,7 @@ export default function Home() {
           </div>
 
           <div className="box">
-            {/* <img src="images/cat3.jpeg"> */}
+            <img src="images/cat3.jpeg" />
             <h3>anéis</h3>
             <p>até 50% de desconto!</p>
             <a href="#" className="btn">
@@ -289,7 +286,7 @@ export default function Home() {
           </div>
 
           <div className="box">
-            {/* <img src="images/cat4.jpeg"> */}
+            <img src="images/cat4.jpeg" />
             <h3>brincos</h3>
             <p>até 50% de desconto!</p>
             <a href="#" className="btn">
@@ -307,14 +304,14 @@ export default function Home() {
         <div className="swiper review-slider">
           <div className="swiper-wrapper">
             <div className="swiper-slide box">
-              {/* <img src="images/pic-1.png" alt=""> */}
+              <img src="images/pic-1.png" alt="" />
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptatum quas veniam vitae quisquam alias velit numquam
                 laudantium, molestias optio doloremque repellendus deserunt
                 perspiciatis! Laborum nihil blanditiis quidem nam vero atque.
               </p>
-              <h3>Fulano de tal</h3>
+              <h3>Nome de Usuário</h3>
               <div className="stars">
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
@@ -325,14 +322,14 @@ export default function Home() {
             </div>
 
             <div className="swiper-slide box">
-              {/* <img src="images/pic-2.png" alt=""> */}
+              <img src="images/pic-2.png" alt="" />
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptatum quas veniam vitae quisquam alias velit numquam
                 laudantium, molestias optio doloremque repellendus deserunt
                 perspiciatis! Laborum nihil blanditiis quidem nam vero atque.
               </p>
-              <h3>Fulano de tal</h3>
+              <h3>Nome de Usuário</h3>
               <div className="stars">
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
@@ -343,14 +340,14 @@ export default function Home() {
             </div>
 
             <div className="swiper-slide box">
-              {/* <img src="images/pic-3.png" alt=""> */}
+              <img src="images/pic-3.png" alt="" />
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptatum quas veniam vitae quisquam alias velit numquam
                 laudantium, molestias optio doloremque repellendus deserunt
                 perspiciatis! Laborum nihil blanditiis quidem nam vero atque.
               </p>
-              <h3>Fulano de tal</h3>
+              <h3>Nome de Usuário</h3>
               <div className="stars">
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
@@ -361,14 +358,14 @@ export default function Home() {
             </div>
 
             <div className="swiper-slide box">
-              {/* <img src="images/pic-4.png" alt=""> */}
+              <img src="images/pic-4.png" alt="" />
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptatum quas veniam vitae quisquam alias velit numquam
                 laudantium, molestias optio doloremque repellendus deserunt
                 perspiciatis! Laborum nihil blanditiis quidem nam vero atque.
               </p>
-              <h3>Fulano de tal</h3>
+              <h3>Nome de Usuário</h3>
               <div className="stars">
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
@@ -388,7 +385,7 @@ export default function Home() {
 
         <div className="box-container">
           <div className="box">
-            {/* <img src="images/blog1.jpeg" alt=""> */}
+            <img src="images/blog1.jpeg" alt="" />
             <div className="content">
               <div className="icons">
                 <a href="#">
@@ -410,7 +407,7 @@ export default function Home() {
           </div>
 
           <div className="box">
-            {/* <img src="images/blog2.jpeg" alt=""> */}
+            <img src="images/blog2.jpeg" alt="" />
             <div className="content">
               <div className="icons">
                 <a href="#">
@@ -432,7 +429,7 @@ export default function Home() {
           </div>
 
           <div className="box">
-            {/* <img src="images/blog3.jpeg" alt=""> */}
+            <img src="images/blog3.jpeg" alt="" />
             <div className="content">
               <div className="icons">
                 <a href="#">
@@ -514,7 +511,7 @@ export default function Home() {
             <p>Inscreva-se para novidades toda semana!</p>
             <input type="email" placeholder="Seu e-mail" className="email" />
             <input type="submit" value="subscribe" className="btn" />
-            {/* <img src="images/payment.png" className="payment-img"> */}
+            <img src="images/payment.png" className="payment-img" />
           </div>
         </div>
         <div className="credit">
