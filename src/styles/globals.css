@@ -167,7 +167,7 @@ section {
   position: relative;
   margin: 1rem 0;
 }
-.header .shopping-cart .box img {
+.header .shopping-cart .box .imageCart {
   height: 10rem;
 }
 .header .shopping-cart .box .fa-trash {

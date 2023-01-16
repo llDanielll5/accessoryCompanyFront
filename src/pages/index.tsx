@@ -1,9 +1,25 @@
-import Script from "next/script";
 import React from "react";
+import Script from "next/script";
+import Image from "next/legacy/image";
 
 export default function Home() {
   return (
     <>
+      <head>
+        <title>Accessory Company</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        />
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+        />
+        <Script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></Script>
+        <Script type="text/javascript" src="js/script.js"></Script>
+      </head>
       <header className="header">
         <a href="#" className="logo">
           <i className="far fa-gem"> accessory company </i>
@@ -33,7 +49,12 @@ export default function Home() {
         <div className="shopping-cart">
           <div className="box">
             <i className="fas fa-trash"></i>
-            {/* <img src="images/cart1.jpeg"> */}
+            {/* <Image
+              src="/images/cart1.jpeg"
+              alt=""
+              layout="fill"
+              style={{ height: "10rem" }}
+            /> */}
             <div className="content">
               <h3>Produto no Carrinho</h3>
               <span className="price">R$ 10,00/-</span>
@@ -501,9 +522,6 @@ export default function Home() {
           reservados. 2021.
         </div>
       </footer>
-
-      <Script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></Script>
-      <Script src="/js/script.js"></Script>
     </>
   );
 }
